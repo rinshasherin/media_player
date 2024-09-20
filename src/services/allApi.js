@@ -1,6 +1,6 @@
 import axios, { Axios } from "axios";
 
-const base_url="http://localhost:3000"
+const base_url="https://mp-server-jg1m.onrender.com"
 
 export const addVideoApi=async(data)=>{
     return await axios.post(`${base_url}/videos`,data)
